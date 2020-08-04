@@ -1,0 +1,119 @@
+#include "ui_mp/menudef.h"
+
+{
+	assetGlobalDef 
+	{
+		cursor "ui/assets/3_cursor3"	// cursor	
+		gradientBar "ui/assets/gradientbar2.tga"	// gradient bar
+		fadeClamp 1.0					// sets the fadeup alpha
+		fadeCycle 1						// how often fade happens in milliseconds
+		fadeAmount 0.1					// amount to adjust alpha per cycle
+
+		shadowX  5						// x amount for shadow offset
+		shadowY  5						// y amount for shadow offset
+		shadowColor 0.1 0.1 0.1 0.25	// shadow color
+
+		consoleFont "fonts/consoleFont" 18		// font
+		smallFont "fonts/smallFont" 12			// font
+		font "fonts/normalFont" 16				// font
+		bigFont "fonts/bigFont" 24				// font
+		extraBigFont "fonts/extraBigFont" 32	// font
+		boldFont "fonts/boldFont" 30			// font
+	}
+
+	//	CURSOR HINTS
+	menuDef 
+	{
+    	name "Cursorhints"
+    	fullScreen MENU_FALSE
+    	visible MENU_TRUE
+    	rect 300 325 40 40 // 480,520,64x64
+
+		itemDef 
+		{
+			name "chRect"
+			decoration
+			visible MENU_TRUE
+			rect 0 0 40 40 // 64x64
+			textscale .21
+			textstyle ITEM_TEXTSTYLE_SHADOWEDMORE
+			ownerdraw CG_CURSORHINT
+		}
+	}
+
+	
+
+	// WEAPON INFO
+	menuDef
+	{
+		name "weaponinfo"
+		fullScreen MENU_FALSE
+		visible MENU_TRUE
+		rect 0 420.375 640 40 // 0,695,1024x64
+		
+		// weapon name back
+		itemDef
+		{
+			name "weaponnameback"
+			rect 242.5 10.625 320 20 // 388,17,512x32
+			textscale .3 // needs to match the weapon name display
+			forecolor 1.0 1.0 1.0 1.0
+			background "gfx/hud/hud@weaponnameback.tga"
+			ownerdraw CG_PLAYER_WEAPON_NAME_BACK
+			visible MENU_TRUE
+			decoration
+		}
+
+		// weapon ammo counter back
+		itemDef
+		{
+			name "ammocounterback"
+			rect 557.5 1.25 80 40 // 892,2,128x64
+			forecolor 1.0 1.0 1.0 1.0
+			background "gfx/hud/hud@ammocounterback.tga"
+			ownerdraw CG_PLAYER_AMMO_BACKDROP
+			visible MENU_TRUE
+			decoration
+		}
+
+		// weapon mode
+		itemDef
+		{
+			name "weaponfiremode"
+			rect 537.5 10 20 20 // 860,16,32x32
+			forecolor 1.0 1.0 1.0 1.0
+			ownerdraw CG_PLAYER_WEAPON_MODE_ICON
+			visible MENU_TRUE
+			decoration
+		}
+		
+		// weapon name
+		itemDef
+		{
+			name "weapname"
+			rect 242.5 25.625 320 30 // 388,41,512x32
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .3
+			forecolor 1.0 1.0 1.0 1.0
+			ownerdraw CG_PLAYER_WEAPON_NAME
+			visible MENU_TRUE
+			decoration
+		}
+		
+		// ammo text
+		itemDef 
+		{
+ 			name "ammotex"
+			rect 570 24.25 55 40 // 912,2,88x64
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .21
+			forecolor 1.0 1.0 1.0 1.0
+			ownerdraw CG_PLAYER_AMMO_VALUE
+			visible MENU_TRUE
+			decoration
+		}
+	}
+
+	
+	}
+}

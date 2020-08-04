@@ -1,0 +1,7 @@
+The map file is here, but there is a few rules or it will not work properly.
+
+1. Have the clientside files for the mod in your main folder when mapping
+2. Leave everything in its place, feel free to retexture.
+3. Make sure the walls are thick or the ball will fly through.
+
+If you make a map come on the server and tell us, we will tell you what to do from there.

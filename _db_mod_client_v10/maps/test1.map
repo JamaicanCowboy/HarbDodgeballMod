@@ -1,0 +1,203 @@
+{
+"classname" "worldspawn"
+// brush 0
+ {
+  patchDef5
+  {
+   dodgeball/decal@db_court2
+   ( 3 3 0 0 0 0 8 ) 
+(
+( ( 8 -312 1 0 0 255 255 255 255 0 ) ( 8 352 1 0 0.500000 255 255 255 255 0 ) ( 8 1016 1 0 1 255 255 255 255 0 ) )
+( ( 516 -312 1 0.500000 0 255 255 255 255 0 ) ( 516 352 1 0.500000 0.500000 255 255 255 255 0 ) ( 516 1016 1 0.500000 1 255 255 255 255 0 ) )
+( ( 1024 -312 1 1 0 255 255 255 255 0 ) ( 1024 352 1 1 0.500000 255 255 255 255 0 ) ( 1024 1016 1 1 1 255 255 255 255 0 ) )
+)
+  }
+ }
+// brush 1
+{
+( 8 -128 192 ) ( 8 752 192 ) ( 8 -128 -8 ) normandy/walls/brick@drkred_brick 32 0 0 0.25 0.25 0 0 0 0
+( -16 672 192 ) ( -16 -208 192 ) ( -16 -208 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 816 1024 192 ) ( 176 1024 192 ) ( 176 1024 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 112 -320 192 ) ( 752 -320 192 ) ( 752 -320 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 0 -208 192 ) ( 0 232 192 ) ( 464 232 192 ) common/caulk 32 -32 0 0.25 0.25 0 0 0 0
+( 464 232 -8 ) ( 0 232 -8 ) ( 0 -208 -8 ) common/caulk 32 -32 0 0.25 0.25 0 0 0 0
+}
+// brush 2
+{
+( 0 232 184 ) ( 0 -208 184 ) ( 464 232 184 ) normandy/floors/concrete@oldwrn1 -96 -32 0 0.25 0.25 0 0 0 0
+( 0 672 192 ) ( 0 -208 192 ) ( 0 -208 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 816 1024 192 ) ( 176 1024 192 ) ( 176 1024 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 1032 -136 192 ) ( 1032 744 192 ) ( 1032 744 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 112 -320 192 ) ( 752 -320 192 ) ( 752 -320 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 0 -208 192 ) ( 0 232 192 ) ( 464 232 192 ) common/caulk 32 -32 0 0.25 0.25 0 0 0 0
+}
+// brush 3
+{
+( 176 1016 192 ) ( 816 1016 192 ) ( 176 1016 -8 ) normandy/walls/brick@drkred_brick -96 0 0 0.25 0.25 0 0 0 0
+( 0 752 192 ) ( 0 -128 192 ) ( 0 -128 -8 ) common/caulk -32 0 0 0.25 0.25 0 0 0 0
+( 816 1024 192 ) ( 176 1024 192 ) ( 176 1024 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 1032 -56 192 ) ( 1032 824 192 ) ( 1032 824 -8 ) common/caulk -32 0 0 0.25 0.25 0 0 0 0
+( 0 -128 192 ) ( 0 312 192 ) ( 464 312 192 ) common/caulk 32 32 0 0.25 0.25 0 0 0 0
+( 464 312 -8 ) ( 0 312 -8 ) ( 0 -128 -8 ) common/caulk 32 32 0 0.25 0.25 0 0 0 0
+}
+// brush 4
+{
+( 752 -312 192 ) ( 112 -312 192 ) ( 752 -312 -8 ) normandy/walls/brick@drkred_brick -96 0 0 0.25 0.25 0 0 0 0
+( 0 672 192 ) ( 0 -208 192 ) ( 0 -208 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 1032 -136 192 ) ( 1032 744 192 ) ( 1032 744 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 112 -320 192 ) ( 752 -320 192 ) ( 752 -320 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 0 -208 192 ) ( 0 232 192 ) ( 464 232 192 ) common/caulk 32 -32 0 0.25 0.25 0 0 0 0
+( 464 232 -8 ) ( 0 232 -8 ) ( 0 -208 -8 ) common/caulk 32 -32 0 0.25 0.25 0 0 0 0
+}
+// brush 5
+{
+( 1024 824 192 ) ( 1024 -56 192 ) ( 1024 824 -8 ) normandy/walls/brick@drkred_brick 32 0 0 0.25 0.25 0 0 0 0
+( 816 1024 192 ) ( 176 1024 192 ) ( 176 1024 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 1048 -136 192 ) ( 1048 744 192 ) ( 1048 744 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 112 -320 192 ) ( 752 -320 192 ) ( 752 -320 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 0 -208 192 ) ( 0 232 192 ) ( 464 232 192 ) common/caulk 32 -32 0 0.25 0.25 0 0 0 0
+( 464 232 -8 ) ( 0 232 -8 ) ( 0 -208 -8 ) common/caulk 32 -32 0 0.25 0.25 0 0 0 0
+}
+// brush 6
+{
+( 0 232 0 ) ( 464 232 0 ) ( 0 -208 0 ) austria/floors/wood@chateauflr_parquet -96 -32 0 0.25 0.25 0 0 0 0
+( 0 672 192 ) ( 0 -208 192 ) ( 0 -208 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 816 1024 192 ) ( 176 1024 192 ) ( 176 1024 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 1032 -136 192 ) ( 1032 744 192 ) ( 1032 744 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 112 -320 192 ) ( 752 -320 192 ) ( 752 -320 -8 ) common/caulk 32 0 0 0.25 0.25 0 0 0 0
+( 472 232 -56 ) ( 8 232 -56 ) ( 8 -208 -56 ) common/caulk 32 -32 0 0.25 0.25 0 0 0 0
+}
+}
+// entity 1
+{
+"targetname" "axis_trigger"
+"classname" "trigger_multiple"
+// brush 0
+{
+( 64 336 8 ) ( 16 336 8 ) ( 16 288 8 ) common/trigger 0 32 0 0.25 0.25 0 0 0 0
+( 64 288 136 ) ( 64 336 136 ) ( 112 336 136 ) common/trigger 0 32 0 0.25 0.25 0 0 0 0
+( 248 136 -72 ) ( 296 136 -72 ) ( 296 136 -80 ) common/trigger 0 0 0 0.25 0.25 0 0 0 0
+( 1024 152 -72 ) ( 1024 200 -72 ) ( 1024 200 -80 ) common/trigger -32 0 0 0.25 0.25 0 0 0 0
+( 56 336 -72 ) ( 8 336 -72 ) ( 8 336 -80 ) common/trigger 0 0 0 0.25 0.25 0 0 0 0
+( 8 336 -72 ) ( 8 288 -72 ) ( 8 288 -80 ) common/trigger -32 0 0 0.25 0.25 0 0 0 0
+}
+}
+// entity 2
+{
+"classname" "script_origin"
+"targetname" "ballspawn"
+"origin" "640 352 8"
+}
+// entity 3
+{
+"origin" "512 352 8"
+"targetname" "ballspawn"
+"classname" "script_origin"
+}
+// entity 4
+{
+"origin" "513 976 0"
+"classname" "mp_teamdeathmatch_spawn"
+"targetname" "allies"
+"angles" "0 270 0"
+}
+// entity 5
+{
+"classname" "mp_teamdeathmatch_intermission"
+"origin" "516 376 148"
+}
+// entity 6
+{
+"targetname" "allies"
+"classname" "mp_teamdeathmatch_spawn"
+"origin" "865 975 0"
+"angles" "0 270 0"
+}
+// entity 7
+{
+"origin" "160 976 0"
+"classname" "mp_teamdeathmatch_spawn"
+"targetname" "allies"
+"angles" "0 270 0"
+}
+// entity 8
+{
+"targetname" "allies"
+"classname" "mp_teamdeathmatch_spawn"
+"origin" "321 976 0"
+"angles" "0 270 0"
+}
+// entity 9
+{
+"origin" "701 976 0"
+"classname" "mp_teamdeathmatch_spawn"
+"targetname" "allies"
+"angles" "0 270 0"
+}
+// entity 10
+{
+"targetname" "axis"
+"classname" "mp_teamdeathmatch_spawn"
+"origin" "513 -272 0"
+"angles" "0 90 0"
+}
+// entity 11
+{
+"targetname" "axis"
+"origin" "865 -273 0"
+"classname" "mp_teamdeathmatch_spawn"
+"angles" "0 90 0"
+}
+// entity 12
+{
+"targetname" "axis"
+"classname" "mp_teamdeathmatch_spawn"
+"origin" "160 -272 0"
+"angles" "0 90 0"
+}
+// entity 13
+{
+"origin" "321 -272 0"
+"classname" "mp_teamdeathmatch_spawn"
+"targetname" "axis"
+"angles" "0 90 0"
+}
+// entity 14
+{
+"targetname" "axis"
+"classname" "mp_teamdeathmatch_spawn"
+"origin" "701 -272 0"
+"angles" "0 90 0"
+}
+// entity 15
+{
+"classname" "script_origin"
+"targetname" "ballspawn"
+"origin" "575 353 8"
+}
+// entity 16
+{
+"origin" "384 352 8"
+"targetname" "ballspawn"
+"classname" "script_origin"
+}
+// entity 17
+{
+"classname" "script_origin"
+"targetname" "ballspawn"
+"origin" "448 352 8"
+}
+// entity 18
+{
+"classname" "trigger_multiple"
+"targetname" "allies_trigger"
+// brush 0
+{
+( 64 568 8 ) ( 16 568 8 ) ( 16 520 8 ) common/trigger 0 64 0 0.25 0.25 0 0 0 0
+( 64 520 136 ) ( 64 568 136 ) ( 112 568 136 ) common/trigger 0 64 0 0.25 0.25 0 0 0 0
+( 248 368 -72 ) ( 296 368 -72 ) ( 296 368 -80 ) common/trigger 0 0 0 0.25 0.25 0 0 0 0
+( 1024 384 -72 ) ( 1024 432 -72 ) ( 1024 432 -80 ) common/trigger -64 0 0 0.25 0.25 0 0 0 0
+( 56 568 -72 ) ( 8 568 -72 ) ( 8 568 -80 ) common/trigger 0 0 0 0.25 0.25 0 0 0 0
+( 8 568 -72 ) ( 8 520 -72 ) ( 8 520 -80 ) common/trigger -64 0 0 0.25 0.25 0 0 0 0
+}
+}
